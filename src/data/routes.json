@@ -1,0 +1,20 @@
+[
+  {
+    "to": "/dashboard/",
+    "title": "Dashboard",
+    "icon": "mdi-view-dashboard",
+    "role": "Editor"
+  },
+  {
+    "to": "/medias/",
+    "title": "Projeção",
+    "icon": "mdi-cast-connected",
+    "role": "Admin"
+  },
+  {
+    "to": "/users/",
+    "title": "Usuários",
+    "icon": "mdi-account-box-multiple",
+    "role": "Admin"
+  }
+]

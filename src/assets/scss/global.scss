@@ -1,0 +1,141 @@
+.sectionHeader {
+  padding: 20px 0;
+  border-bottom: var(--v-primary-base) 2px solid;
+  h3, .headerTitle {
+    margin: 0;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 24px;
+    letter-spacing: 0.25px;
+    color: var(--v-primary-base);
+  }
+}
+
+div.subtitle {
+  position: relative;
+  padding: 5px;
+  border-bottom: 2px solid var(--v-primary-base);
+  .actions {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+  }
+}
+
+.errorPageMessage {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 3rem 0;
+  font-weight: 400;
+  color: var(--v-grey-base);
+
+  .v-icon {
+    font-size: 6rem;
+    display: block;
+    margin-bottom: 3rem;
+    color: var(--v-grey-base) !important;
+  }
+}
+
+.v-application code {
+  box-shadow: none !important;
+}
+
+pre[class*="language-"] {
+  background: none !important;
+  padding: 0 !important;
+  padding-left: 1em !important;
+  margin: 0 !important;
+}
+
+// Scroll
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border: 0px none transparent;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #ddd;
+  border: 0px none transparent;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+// .v-card.glass {
+  // background-color: rgba(255,255,255,0.75) !important;
+// }
+
+.v-form {
+  .row > div {
+    padding: 0 12px;
+  }
+
+  // fieldset
+  fieldset {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    legend {
+      padding: 0 5px;
+    }
+
+    + fieldset {
+      margin-top: 12px
+    }
+  }
+  .v-text-field--filled:not(.v-text-field--single-line) input {
+    margin-top: 0;
+  }
+
+  .highlightFields input {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+}
+
+.v-data-table {
+  &.clickRow tr {
+    cursor: pointer !important;
+  }
+}
+
+tr.disabled td:not(:last-child), div.disabled > *:not(:last-child){
+  cursor: not-allowed !important;
+  > * {
+    pointer-events: none;
+  }
+
+  /* for "disabled" effect */
+  opacity: 0.7;
+}
+
+tr.disabled.all td, div.disabled.all {
+  
+  cursor: not-allowed !important;
+  > * {
+    pointer-events: none;
+  }
+
+  /* for "disabled" effect */
+  opacity: 0.7;
+}
+
+.v-text-field--filled {
+  pointer-events: none;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.03);
+}
