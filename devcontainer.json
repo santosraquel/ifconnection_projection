@@ -1,0 +1,13 @@
+{
+    "name": "Dokerfile",
+
+    "build": { "dockerfile": "Dockerfile" },
+    
+    "extensions": ["dbaeumer.vscode-eslint"],
+  
+    "forwardPorts": [3000],
+  
+    "postCreateCommand": "yarn install",
+  
+    "remoteUser": "node"
+  }

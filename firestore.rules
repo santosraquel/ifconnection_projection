@@ -1,0 +1,52 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isUserRegistered() {
+      return isSignedIn() 
+      && get(/databases/$(database)/documents/users/$(request.auth.token.email)) != null;
+    }
+
+    function checkRole(role) {
+      return (get(/databases/$(database)/documents/users/$(request.auth.token.email))
+      .data['role'] == role)
+    }
+
+    function isEditor() {
+      return checkRole('Admin') || checkRole('Editor')
+    }
+    
+    function isAdmin() {
+      return checkRole('Admin')
+    }
+    
+    match /users/{user} {
+      allow read: if user == request.auth.token.email;
+      // Only Admins can create and edit users
+    	allow read, write: if isAdmin()
+    }
+    
+    match /medias/{media} {
+      allow read: if user == request.auth.token.email;
+      // Only Admins can create and edit users
+    	allow read, write: if isAdmin()
+    }
+    
+    match /solicitations/{solicitation} {
+      allow read: if user == request.auth.token.email;
+      // Only Admins can create and edit users
+    	allow read, write: if isAdmin()
+    } 
+    
+    match /publications/{publication} {
+      allow read: if user == request.auth.token.email;
+      // Only Admins can create and edit users
+    	allow read, write: if isAdmin()
+    }
+    
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "result": {
+    "fileName": "google-config.js",
+    "fileContents": "// Copy and paste this into your JavaScript code to initialize the Firebase SDK.\n// You will also need to load the Firebase SDK.\n // See https://firebase.google.com/docs/web/setup for more details. \n\nfirebase.initializeApp({ \n  \"projectId\": \"if-connection\",\n \"appId\": \"1:776361691654:web:675adab969ca1a002e1187\", \n  \"storageBucket\": \"if-connection.appspot.com\", \n  \"locationId\": \"us-central\",\n \"apiKey\": \"AIzaSyDSIMmCyRUmf3CzEDV1zmEIM8oq32Hl0rk\",\n \"authDomain\": \"if-connection.firebaseapp.com\",\n \"messagingSenderId\": \"776361691654\",\n \"measurementId\": \"G-YEM7EWGB06\"\n});\n", 
+      "sdkConfig": {
+      "projectId": "if-connection",
+      "appId": "1:776361691654:web:675adab969ca1a002e1187",
+      "databaseURL": "https://if-connection-default-rtdb.firebaseio.com",
+      "storageBucket": "if-connection.appspot.com",
+      "locationId": "us-central",
+      "apiKey": "AIzaSyDSIMmCyRUmf3CzEDV1zmEIM8oq32Hl0rk",
+      "authDomain": "if-connection.firebaseapp.com",
+      "messagingSenderId": "776361691654",
+      "measurementId": "G-YEM7EWGB06"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "algolia": {
+    "search_key": "c385d59f7ff7be9719f8b4309315ddbe",
+    "api_key": "e298f6eee8b3fc2d20c934f4bcfb4736",
+    "index_prefix": "dev_",
+    "app_id": "FLSYJRQWVF"
+  }
+}

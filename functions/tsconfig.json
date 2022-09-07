@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext.asynciterable", "es5", "es6", "dom", "dom.iterable"],
+    "outDir": "lib",
+    "types": ["node"],
+    "target": "es2018",
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "paths": {
+      "@/app/*": ["../src/app/*"],
+      "@/utils/*": ["../src/utils/*"],
+      "@/firebase/*": ["../src/firebase/*"],
+      "@/*": ["./src/*"],
+      "@@/*": ["./*"],
+    },
+    "esModuleInterop": true
+  },
+  "compileOnSave": true,
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
