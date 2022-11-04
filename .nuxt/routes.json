@@ -2,71 +2,71 @@
   {
     "name": "auth",
     "path": "/auth",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/auth/index.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/auth/index.vue",
     "chunkName": "pages/auth/index",
-    "_name": "_13e33e2d"
+    "_name": "_43202de7"
   },
   {
     "name": "dashboard",
     "path": "/dashboard",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/dashboard.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/dashboard.vue",
     "chunkName": "pages/dashboard",
-    "_name": "_55ea9afc"
+    "_name": "_62f3e388"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/login.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/login.vue",
     "chunkName": "pages/login",
-    "_name": "_75de5fd7"
+    "_name": "_2f6503dd"
   },
   {
     "name": "medias",
     "path": "/medias",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/medias.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/medias.vue",
     "chunkName": "pages/medias",
-    "_name": "_2563d091"
+    "_name": "_c69ca56a"
   },
   {
     "name": "perfil",
     "path": "/perfil",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/perfil.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/perfil.vue",
     "chunkName": "pages/perfil",
-    "_name": "_1f2206ce"
+    "_name": "_d32038f0"
   },
   {
     "name": "singup",
     "path": "/singup",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/singup.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/singup.vue",
     "chunkName": "pages/singup",
-    "_name": "_11b7b928"
+    "_name": "_6e720026"
   },
   {
     "name": "teste",
     "path": "/teste",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/teste.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/teste.vue",
     "chunkName": "pages/teste",
-    "_name": "_d3714cfe"
+    "_name": "_4fcdfd87"
   },
   {
     "name": "users",
     "path": "/users",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/users.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/users.vue",
     "chunkName": "pages/users",
-    "_name": "_1cbed214"
+    "_name": "_a9b18a08"
   },
   {
     "name": "auth-reset_password",
     "path": "/auth/reset_password",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/auth/reset_password.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/auth/reset_password.vue",
     "chunkName": "pages/auth/reset_password",
-    "_name": "_2f128780"
+    "_name": "_2ab2ddc6"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/abelha/TCC Raquel/projecao/src/pages/index.vue",
+    "component": "/home/abelha/TCC Raquel/ifconnection_projection/src/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_a7928680"
+    "_name": "_65bd60c6"
   }
 ]

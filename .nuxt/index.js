@@ -13,10 +13,10 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_233f5a51 from 'nuxt_plugin_plugin_233f5a51' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_axios_656bc953 from 'nuxt_plugin_axios_656bc953' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_workbox_3b6f35af from 'nuxt_plugin_workbox_3b6f35af' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_router_074c2688 from 'nuxt_plugin_router_074c2688' // Source: ./router.js (mode: 'all')
+import nuxt_plugin_plugin_9daee952 from 'nuxt_plugin_plugin_9daee952' // Source: ./vuetify/plugin.js (mode: 'all')
+import nuxt_plugin_axios_70a4398d from 'nuxt_plugin_axios_70a4398d' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_workbox_5a4c7f69 from 'nuxt_plugin_workbox_5a4c7f69' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_router_582f83c2 from 'nuxt_plugin_router_582f83c2' // Source: ./router.js (mode: 'all')
 import nuxt_plugin_fireauth_1515a71b from 'nuxt_plugin_fireauth_1515a71b' // Source: ../src/plugins/fireauth.ts (mode: 'client')
 
 // Component: <ClientOnly>
@@ -220,20 +220,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_233f5a51 === 'function') {
-    await nuxt_plugin_plugin_233f5a51(app.context, inject)
+  if (typeof nuxt_plugin_plugin_9daee952 === 'function') {
+    await nuxt_plugin_plugin_9daee952(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_656bc953 === 'function') {
-    await nuxt_plugin_axios_656bc953(app.context, inject)
+  if (typeof nuxt_plugin_axios_70a4398d === 'function') {
+    await nuxt_plugin_axios_70a4398d(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_3b6f35af === 'function') {
-    await nuxt_plugin_workbox_3b6f35af(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_5a4c7f69 === 'function') {
+    await nuxt_plugin_workbox_5a4c7f69(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_router_074c2688 === 'function') {
-    await nuxt_plugin_router_074c2688(app.context, inject)
+  if (typeof nuxt_plugin_router_582f83c2 === 'function') {
+    await nuxt_plugin_router_582f83c2(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_fireauth_1515a71b === 'function') {
