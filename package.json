@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"nuxt\" \"yarn functions:watch\" \"yarn emulator\"",
+    "dev-old": "concurrently \"nuxt\" \"yarn functions:watch\" \"yarn emulator\"",
+    "dev": "nuxt dev --port 3334",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
