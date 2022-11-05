@@ -1,7 +1,8 @@
 {
   "projects": {
     "y": "if-connection",
-    "staging": "if-connection"
+    "staging": "if-connection",
+    "default": "if-connection"
   },
   "targets": {},
   "etags": {}

@@ -1,0 +1,12 @@
+{
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "pt-BR"
+}
